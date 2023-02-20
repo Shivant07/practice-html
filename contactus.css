@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+    background-color: white;
+    /* padding-left: 400px;
+    padding-right: 400px; */
+    display: flex;
+    justify-content: space-around;
+}
+
+#div {
+    border: 2px solid black;
+    height: 565px;
+    width: 400px;
+    background-color: rgba(239, 222, 190, 0.34);
+}
+
+#name {
+    border: 1.5px solid black;
+    border-radius: 3px;
+}
+
+#email {
+    border: 1.5px solid black;
+    border-radius: 3px;
+}
+
+#subject {
+    border: 1.5px solid black;
+    border-radius: 3px;
+}
+
+#message {
+    border: 1.5px solid black;
+    border-radius: 3px;
+}
+
+#submit {
+    border: 1.5px solid black;
+    border-radius: 3px;
+}
+
+#RESET {
+    border: 1.5px solid royalblue;
+    border-radius: 3px;
+}
+
+#sex {
+    border: 1.5px solid black;
+    border-radius: 3px;
+}
+@media only screen and (max-width:600px) {
+    body {
+    text-align: center;
+    background-color: white;
+    /* padding-left: 400px;
+    padding-right: 400px; */
+}
+
+#div {
+    border: 2px solid black;
+    height: 565px;
+    width: 400px;
+    background-color: rgba(239, 222, 190, 0.34);
+}
+
+#name {
+    border: 1.5px solid black;
+    border-radius: 3px;
+}
+
+#email {
+    border: 1.5px solid black;
+    border-radius: 3px;
+}
+
+#subject {
+    border: 1.5px solid black;
+    border-radius: 3px;
+}
+
+#message {
+    border: 1.5px solid black;
+    border-radius: 3px;
+}
+
+#submit {
+    border: 1.5px solid black;
+    border-radius: 3px;
+}
+
+#RESET {
+    border: 1.5px solid royalblue;
+    border-radius: 3px;
+}
+
+#sex {
+    border: 1.5px solid black;
+    border-radius: 3px;
+}
+}
