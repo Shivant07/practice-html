@@ -59,7 +59,7 @@ body {
 #div {
     border: 2px solid black;
     height: 565px;
-    width: 400px;
+    width: 450px;
     background-color: rgba(239, 222, 190, 0.34);
 }
 
@@ -96,5 +96,9 @@ body {
 #sex {
     border: 1.5px solid black;
     border-radius: 3px;
+}
+.button{
+    padding: 0px;
+    margin: 0px;
 }
 }
