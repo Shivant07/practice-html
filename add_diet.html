@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Diet</title>
+    <link rel="stylesheet" href="add_diet.css">
+</head>
+<body>
+    <div class="main-div">
+        <form action="backend.java" method="get">
+            <div class="diet">
+                <div>
+                    <label for="food">Food Name</label><br>
+                    <input type="text" name="Foodname" id="food" style="border: 2px solid black; border-radius: 5px;">
+                </div>
+                <br>
+                <div>
+                    <label for="Quantity">Quantity (In grams)</label><br>
+                        <input type="number" name="quantity" id="Quantity" style="border: 2px solid black; border-radius: 5px;">
+                </div> <br>
+               <div>
+                <label for="protine">Protine (per 100 gms)</label><br>
+                    <input type="number" name="Protine" id="protine" style="border: 2px solid black; border-radius: 5px;">
+               </div> 
+               <br>
+    
+                <div class="Fat">
+                    <label for="Fat">fat (per 100 gms)</label><br>
+                        <input type="number" name="fat" id="Fat" style="border: 2px solid black; border-radius: 5px;">
+                </div>
+                <br>
+    
+               <div class="Carbs">
+                <label for="Carbs">Carbs (per 100 gms)</label><br>
+                    <input type="number" name="carbs" id="Carbs" style="border: 2px solid black; border-radius: 5px;">
+               </div>
+               <br>
+    
+                <div class="Energy">
+                    <label for="Energy">Energy (per 100 gms)</label><br>
+                    <input type="number" name="energy" id="Energy" style="border: 2px solid black; border-radius: 5px;"><br> kacl
+            </div>
+            <br><br>
+    
+                <input type="reset" value="RESET" style="color:brown;font-size: x-large;">
+                <input type="submit" value="ADD DIET" style=" margin-left: 50px; color:green ; font-size: x-large;">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
